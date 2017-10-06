@@ -6,5 +6,102 @@ html, body{
     padding: 0;
 }
 
+/*  Header menyerna SEK osv... */
+#topHeader
+{
+    background-color: lightgrey;
+}
+
+#topHeader > h1
+{
+    padding: 15px;
+    margin: 15px;
+}
+
+#topHeader > ul#option1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    list-style: none;
+}
+
+#topHeader > ul#option2
+{
+    position: absolute;
+    top: 0px;
+    right: 150px;
+    list-style: none;
+}
+
+/* Top Nav här */
+.topNavbutton
+{
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.topNav
+{
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropDown
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropDown a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropDown a:hover
+{
+    background-color: #f1f1f1
+}
+
+.topNav:hover .dropDown
+{
+    display: block;
+}
+
+.topNav:hover .topNavbutton
+{
+    background-color: black;
+}
+
+/* Main börjar här */
+
+main
+{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: black;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+main > section > figure > img
+{
+    width: 700px;
+    height: 250px;
+}
+
 
 /* höjd=7cm // bredd=5.5cm = Bilderna på Produkterna som visas */
+
