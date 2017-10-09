@@ -16,8 +16,9 @@ html, body{
 
 #topHeader > h1
 {
+    font-size: 20pt;
     padding: 15px;
-    margin: 15px;
+   /* margin: 15px;*/
 }
 
 #topHeader > ul#option1 {
@@ -25,6 +26,7 @@ html, body{
     top: 0px;
     right: 0px;
     list-style: none;
+    font-size: 9pt;
 }
 
 #topHeader > ul#option2
@@ -33,6 +35,7 @@ html, body{
     top: 0px;
     right: 150px;
     list-style: none;
+    font-size: 9pt;
 }
 
 /* Top Nav här */
