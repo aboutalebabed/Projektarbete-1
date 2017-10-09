@@ -248,6 +248,33 @@ footer > p:nth-of-type(2)
     text-align: right;
 }
 
+.footerNav
+{
+    float: right;
+    margin-top:5px;
+}
+
+.footerNav li
+{
+    display: inline;
+    float:right;
+}
+
+.footerNav span
+{
+    margin-top: -20px;
+}
+
+footer > div.footerNav > li > a > img
+{
+    width: 50px;
+    height: 50px;
+}
+
+footer > div.footerNav > li
+{
+    padding: 5px;
+}
 /* höjd=7cm // bredd=5.5cm = Bilderna på Produkterna som visas */
 
 
