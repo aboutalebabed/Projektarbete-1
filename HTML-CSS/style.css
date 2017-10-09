@@ -10,12 +10,15 @@ html, body{
 #topHeader
 {
     background-color: lightgrey;
+    margin: 0;
+    width: 100%;
 }
 
 #topHeader > h1
 {
+    font-size: 20pt;
     padding: 15px;
-    margin: 15px;
+   /* margin: 15px;*/
 }
 
 #topHeader > ul#option1 {
@@ -23,6 +26,7 @@ html, body{
     top: 0px;
     right: 0px;
     list-style: none;
+    font-size: 9pt;
 }
 
 #topHeader > ul#option2
@@ -31,6 +35,7 @@ html, body{
     top: 0px;
     right: 150px;
     list-style: none;
+    font-size: 9pt;
 }
 
 /* Top Nav här */
@@ -91,8 +96,48 @@ main
     /*border-right-style: solid;
     border-left-style: solid;*/
     border-color: black;
+<<<<<<< HEAD
+    width: 900px;
+=======
+    width: 960px;
+>>>>>>> 04d179980973fa10456718ef18fddd3f465bf29d
+    margin: 0 auto;
+
+}
+main > #offer{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+
+}
+main > #offer > header > figure{
+
+}
+main > #offer > header > figure > img{
     width: 900px;
     margin: 0 auto;
+    flex: 1;
+    justify-content: flex-start;
+
+}
+main > #offer > header > figure > ol{
+
+    list-style-type: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: deeppink; /*no background color, should be placed inside image offer, just visual to see*/
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    color: #f1f1f1;
+    flex: 1;
+
+}
+
+
+main > #offer > figure > ol > li{
+    font-size: 16pt;
+    margin: 0;
 
 }
 
