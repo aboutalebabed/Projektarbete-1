@@ -367,43 +367,47 @@ footer > div.footerNav > li
 
     main > section > figure > img
     {
-        width: 40%;
+        width: 30%;
         float: left;
+        height: 30%;
     }
 
     main > section#offer > header > figure > img
     {
-        width: 40%;
+        width: 30%;
         float: left;
     }
 
     main > section#offer > header > figure > ol > li
     {
-        width: 40%;
+        width: 30%;
         float: left;
     }
 
     main section#topSeller > header > h2
     {
-        width: 40%;
+        width: 30%;
         float: left;
     }
 
     main > section#topSeller > figure.firstProduct > div#product1 > img
     {
-        width: 30%;
+        width: 20%;
+        height: 20%;
         float: left;
     }
 
     main > section#topSeller > figure.firstProduct > div#product2 > img
     {
-        width: 30%;
+        width: 20%;
+        height: 20%;
         float: left;
     }
 
     main > section#topSeller > figure.firstProduct > div#product3 > img
     {
-        width: 30%;
+        width: 20%;
+        height: 20%;
         float: left;
     }
 
