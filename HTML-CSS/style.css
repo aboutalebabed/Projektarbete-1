@@ -40,6 +40,37 @@ html, body{
     font-size: 9pt;
 }
 
+header#topHeader > ul#option2 >div#rightTop > li > img
+{
+    width: 25px;
+    height: 25px;
+}
+
+header#topHeader > ul#option2 >div#rightTop > li#login > img
+{
+    position: absolute;
+    padding-left: 50px;
+}
+
+header#topHeader > ul#option2 >div#rightTop > li#onskelista > img
+{
+    position: absolute;
+    padding-left: 25px;
+
+}
+
+header#topHeader > ul#option2 >div#rightTop > li#onskelista > img
+{
+    position: absolute;
+    padding-left: 25px;
+
+}
+
+header#topHeader > ul#option1 > li > img
+{
+    width: 25px;
+    height: 20px;
+}
 /* Top Nav här */
 /* Navigationen ( menyn _) */
 .nav ul {
