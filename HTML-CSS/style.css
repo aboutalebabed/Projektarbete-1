@@ -213,6 +213,41 @@ main > section#topSeller > figure.firstProduct
     padding-left: 10px;
 }
 
+main > section#topSeller > figure.firstProduct > div#product1
+{
+    float: left;
+    padding-left: 10px;
+}
+
+main > section#topSeller > figure.firstProduct > div#product1 > img
+{
+    height: 7cm;
+    width: 5.5cm;
+}
+
+main > section#topSeller > figure.firstProduct > div#product2
+{
+    float: left;
+    padding-left: 10px;
+}
+
+main > section#topSeller > figure.firstProduct > div#product2 > img
+{
+    height: 7cm;
+    width: 5.5cm;
+}
+
+main > section#topSeller > figure.firstProduct > div#product3
+{
+    float: left;
+    padding-left: 10px;
+}
+
+main > section#topSeller > figure.firstProduct > div#product3 > img
+{
+    height: 7cm;
+    width: 5.5cm;
+}
 /* Footer section här */
 footer
 {
@@ -319,5 +354,62 @@ footer > div.footerNav > li
 
     .nav li ul li {
         display: block;
+    }
+}
+
+@media screen and (max-width: 40.5em)  {
+
+    header#topHeader
+    {
+        width: 40%;
+        float: right;
+    }
+
+    main > section > figure > img
+    {
+        width: 40%;
+        float: left;
+    }
+
+    main > section#offer > header > figure > img
+    {
+        width: 40%;
+        float: left;
+    }
+
+    main > section#offer > header > figure > ol > li
+    {
+        width: 40%;
+        float: left;
+    }
+
+    main section#topSeller > header > h2
+    {
+        width: 40%;
+        float: left;
+    }
+
+    main > section#topSeller > figure.firstProduct > div#product1 > img
+    {
+        width: 30%;
+        float: left;
+    }
+
+    main > section#topSeller > figure.firstProduct > div#product2 > img
+    {
+        width: 30%;
+        float: left;
+    }
+
+    main > section#topSeller > figure.firstProduct > div#product3 > img
+    {
+        width: 30%;
+        float: left;
+    }
+
+    footer > div.footerNav > li > a > img
+    {
+        width: 40px;
+        float: left;
     }
 }
