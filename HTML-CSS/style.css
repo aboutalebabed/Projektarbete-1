@@ -17,8 +17,10 @@ html, body{
 #topHeader > h1
 {
     font-size: 20pt;
-    padding: 15px;
+    padding: 25px;
    /* margin: 15px;*/
+    margin: 0;
+    padding-left: 250px;
 }
 
 #topHeader > ul#option1 {
@@ -39,54 +41,44 @@ html, body{
 }
 
 /* Top Nav här */
-.topNavbutton
-{
-    background-color: red;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+/* Navigationen ( menyn _) */
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-.topNav
-{
-    position: relative;
-    display: inline-block;
-
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: left;
 }
 
-.dropDown
-{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropDown a
-{
-    color: black;
-    padding: 12px 16px;
+.nav a {
     text-decoration: none;
+    color: #fff;
     display: block;
+    padding-left: 15px;
+    border-bottom: 1px solid #888;
+    transition: .3s background-color;
 }
 
-.dropDown a:hover
-{
-    background-color: #f1f1f1
+.nav a:hover {
+    background-color: #005f5f;
 }
 
-.topNav:hover .dropDown
-{
-    display: block;
+.nav a.active {
+    background-color: #aaa;
+    color: #444;
+    cursor: default;
 }
 
-.topNav:hover .topNavbutton
-{
-    background-color: black;
+/* Under menyn */
+.nav li li {
+    font-size: .8em;
 }
 
 /* Main börjar här */
@@ -96,12 +88,9 @@ main
     /*border-right-style: solid;
     border-left-style: solid;*/
     border-color: black;
-<<<<<<< HEAD
-    width: 900px;
-=======
     width: 960px;
->>>>>>> 04d179980973fa10456718ef18fddd3f465bf29d
     margin: 0 auto;
+    clear: both;
 
 }
 main > #offer{
@@ -114,10 +103,11 @@ main > #offer > header > figure{
 
 }
 main > #offer > header > figure > img{
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
     flex: 1;
     justify-content: flex-start;
+    padding-left: 30px;
 
 }
 main > #offer > header > figure > ol{
@@ -131,6 +121,9 @@ main > #offer > header > figure > ol{
     padding: 10px 10px 10px 10px;
     color: #f1f1f1;
     flex: 1;
+    padding: 10px;
+
+
 
 }
 
@@ -143,7 +136,7 @@ main > #offer > figure > ol > li{
 
 main > section > figure > img
 {
-    width: 700px;
+    width: 750px;
     height: 250px;
     margin-left: auto;
     margin-right: auto;
@@ -152,21 +145,26 @@ main > section > figure > img
 
 
 /* Offer header section */
-#offer > header h2
+/*#offer > header h2
 {
     text-align: center;
     border-style: solid;
 }
-
+*/
 #offer >header
 {
-    width: 800px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
 /* topSellfer section */
+#topSeller
+{
+    padding-left: 27px;
+}
+
 #topSeller > header > h2
 {
     text-align: center;
@@ -220,3 +218,48 @@ footer > p:nth-of-type(2)
 }
 
 /* höjd=7cm // bredd=5.5cm = Bilderna på Produkterna som visas */
+
+
+
+/*******************************************
+650px Mobila enheter detta är för menyn bara
+********************************************/
+
+@media screen and (min-width: 650px) {
+    .nav li {
+        width: 130px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+    .nav a {
+        border-bottom: none;
+    }
+
+    .nav > ul > li {
+        text-align: center;
+    }
+
+    .nav > ul > li > a {
+        padding-left: 0;
+    }
+
+    /* Under menyer */
+    .nav li ul {
+        position: absolute;
+        display: none;
+        width: inherit;
+    }
+
+    .nav li:hover ul {
+        display: block;
+    }
+
+    .nav li ul li {
+        display: block;
+    }
+}
