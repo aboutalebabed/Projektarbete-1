@@ -10,6 +10,7 @@ html, body{
 #topHeader
 {
     background-color: lightgrey;
+    margin: 0;
 }
 
 #topHeader > h1
