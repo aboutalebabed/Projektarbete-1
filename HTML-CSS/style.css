@@ -24,7 +24,7 @@ html, body{
     padding-left: 250px;
 }
 
-#topHeader > ul#option1 {
+#topHeader > #option1 {
     position: absolute;
     top: 0px;
     right: 15px;
@@ -32,7 +32,7 @@ html, body{
     font-size: 9pt;
 }
 
-#topHeader > ul#option2
+#topHeader > #option2
 {
     position: absolute;
     top: 0px;
@@ -41,33 +41,33 @@ html, body{
     font-size: 9pt;
 }
 
-header#topHeader > ul#option2 >div#rightTop > li > img
+#topHeader > #option2 >div#rightTop > li > img
 {
     width: 25px;
     height: 25px;
 }
 
-header#topHeader > ul#option2 >div#rightTop > li#login > img
+#topHeader > #option2 >div#rightTop > #login > img
 {
     position: absolute;
     padding-left: 50px;
 }
 
-header#topHeader > ul#option2 >div#rightTop > li#onskelista > img
+#topHeader > #option2 >div#rightTop > #onskelista > img
 {
     position: absolute;
     padding-left: 25px;
 
 }
 
-header#topHeader > ul#option2 >div#rightTop > li#onskelista > img
+#topHeader > #option2 >div#rightTop > #onskelista > img
 {
     position: absolute;
     padding-left: 25px;
 
 }
 
-header#topHeader > ul#option1 > li > img
+#topHeader > #option1 > li > img
 {
     width: 25px;
     height: 20px;
@@ -207,85 +207,85 @@ main > section > figure > img
     text-align: center;
 }
 
-main > section#topSeller > figure.firstProduct > img
+main > #topSeller > figure.firstProduct > img
 {
     height: 7cm;
     width: 5.5cm;
 }
 
-main > section#topSeller > figure.firstProduct
+main > #topSeller > figure.firstProduct
 {
     float: left;
     padding-left: 10px;
 }
 
-main > section#topSeller > figure.firstProduct > div#product1
+main > #topSeller > figure.firstProduct > #product1
 {
     float: left;
     padding-left: 10px;
 }
 
-main > section#topSeller > figure.firstProduct > div#product1 > img
+main > #topSeller > figure.firstProduct > #product1 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
 
-main > section#topSeller > figure.firstProduct > div#product2
+main > #topSeller > figure.firstProduct > #product2
 {
     float: left;
     padding-left: 10px;
 }
 
-main > section#topSeller > figure.firstProduct > div#product2 > img
+main > #topSeller > figure.firstProduct > #product2 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
 
-main > section#topSeller > figure.firstProduct > div#product3
+main > #topSeller > figure.firstProduct > #product3
 {
     float: left;
     padding-left: 10px;
 }
 
-main > section#topSeller > figure.firstProduct > div#product3 > img
+main > #topSeller > figure.firstProduct > #product3 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
 
-main > section#topSeller > figure.firstProduct > div#product4
+main > #topSeller > figure.firstProduct > #product4
 {
     float: left;
     padding-left: 10px;
 }
 
-main > section#topSeller > figure.firstProduct > div#product4 > img
+main > #topSeller > figure.firstProduct > #product4 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
 
-main > section#topSeller > figure.firstProduct > div#product5
+main > #topSeller > figure.firstProduct > #product5
 {
     float: left;
     padding-left: 10px;
 }
 
-main > section#topSeller > figure.firstProduct > div#product5 > img
+main > #topSeller > figure.firstProduct > #product5 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
 
-main > section#topSeller > figure.firstProduct > div#product6
+main > #topSeller > figure.firstProduct > #product6
 {
     float: left;
     padding-left: 10px;
 }
 
-main > section#topSeller > figure.firstProduct > div#product6 > img
+main > #topSeller > figure.firstProduct > #product6 > img
 {
     height: 7cm;
     width: 5.5cm;
@@ -299,14 +299,14 @@ footer
     width: 100%;
 }
 
-footer > nav#footerNav > ul > li > a > img
+footer > #footerNav > ul > li > a > img
 {
     width: 50px;
     height: 50px;
     list-style: none;
 }
 
-footer > nav#footerNav > ul > li
+footer > #footerNav > ul > li
 {
     list-style: none;
     text-align: right;
@@ -398,10 +398,10 @@ footer > div.footerNav > li
         display: block;
     }
 }
-
+/* kolla denna*/
 @media screen and (max-width: 40.5em)  {
 
-    header#topHeader
+    #topHeader
     {
         width: 40%;
         float: right;
@@ -414,39 +414,39 @@ footer > div.footerNav > li
         height: 30%;
     }
 
-    main > section#offer > header > figure > img
+    main > #offer > header > figure > img
     {
         width: 30%;
         float: left;
     }
 
-    main > section#offer > header > figure > ol > li
+    main > #offer > header > figure > ol > li
     {
         width: 30%;
         float: left;
     }
 
-    main section#topSeller > header > h2
+    main > #topSeller > header > h2
     {
         width: 30%;
         float: left;
     }
 
-    main > section#topSeller > figure.firstProduct > div#product1 > img
+    main > #topSeller > figure.firstProduct > #product1 > img
     {
         width: 20%;
         height: 20%;
         float: left;
     }
 
-    main > section#topSeller > figure.firstProduct > div#product2 > img
+    main > #topSeller > figure.firstProduct > #product2 > img
     {
         width: 20%;
         height: 20%;
         float: left;
     }
 
-    main > section#topSeller > figure.firstProduct > div#product3 > img
+    main > #topSeller > figure.firstProduct > #product3 > img
     {
         width: 20%;
         height: 20%;
