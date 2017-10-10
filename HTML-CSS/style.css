@@ -298,19 +298,25 @@ footer
     float: left; :important;
     width: 100%;
 }
+.footerNav
+ {
+     float: right;
+     margin-top:5px;
+ }
 
-footer > #footerNav > ul > li > a > img
+.footerNav ul
 {
-    width: 50px;
-    height: 50px;
-    list-style: none;
+    list-style-type: none;
+    display: inline;
+    float:right;
+    margin: 0;
 }
-
 footer > #footerNav > ul > li
 {
     list-style: none;
     text-align: right;
     float: right;
+    display: inline;
 }
 
 footer > p:first-of-type
@@ -325,24 +331,14 @@ footer > p:nth-of-type(2)
     text-align: right;
 }
 
-.footerNav
-{
-    float: right;
-    margin-top:5px;
-}
 
-.footerNav li
-{
-    display: inline;
-    float:right;
-}
 
 .footerNav span
 {
     margin-top: -20px;
 }
 
-footer > div.footerNav > li > a > img
+footer > div.footerNav > ul > li > a > img
 {
     width: 50px;
     height: 50px;
