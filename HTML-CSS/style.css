@@ -426,13 +426,44 @@ footer > div.footerNav > ul > li > a > img:nth-child
         display: block;
     }
 }
+
+
+
 /* kolla denna*/
 @media screen and (max-width: 40.5em)  {
 
+    #topHeader > h1
+    {
+        width: 30%;
+        float: left;
+    }
+
+    #option1
+    {
+        width: 30%;
+        float: left;
+    }
+
+    #option2
+    {
+        width: 30%;
+        float: left;
+    }
+
+    .searchBox
+    {
+        width: 30%;
+        float: left;
+    }
+
+    .nav
+    {
+
+    }
+
     #topHeader
     {
-        width: 40%;
-        float: right;
+        display:none;
     }
 
     main > section > figure > img
