@@ -222,13 +222,42 @@ main > section > figure > img
     margin-right: auto;
     display: block;
 }
+#containerCategories
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#topSeller figure{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Categories
+{
+    padding: 0;
+    margin: 0;
+}
+.Categories header > h4
+{
+    font-weight: bold;
+}
+.Categories > ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
 /* topSellfer section */
-#topSeller
+/*#topSeller
 {
     padding-left: 27px;
 }
 
+*/
 #topSeller > header > h2
 {
     text-align: center;
@@ -240,7 +269,7 @@ main > #topSeller > figure.firstProduct > img
     width: 5.5cm;
 }
 
-main > #topSeller > figure.firstProduct
+/*main > #topSeller > figure.firstProduct
 {
     float: left;
     padding-left: 10px;
@@ -251,72 +280,74 @@ main > #topSeller > figure.firstProduct > #product1
     float: left;
     padding-left: 10px;
 }
-
+*/
 main > #topSeller > figure.firstProduct > #product1 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
-
+/*
 main > #topSeller > figure.firstProduct > #product2
 {
     float: left;
     padding-left: 10px;
 }
-
+*/
 main > #topSeller > figure.firstProduct > #product2 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
-
+/*
 main > #topSeller > figure.firstProduct > #product3
 {
     float: left;
     padding-left: 10px;
 }
-
+*/
 main > #topSeller > figure.firstProduct > #product3 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
-
+/*
 main > #topSeller > figure.firstProduct > #product4
 {
     float: left;
     padding-left: 10px;
 }
+*/
 
 main > #topSeller > figure.firstProduct > #product4 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
-
+/*
 main > #topSeller > figure.firstProduct > #product5
 {
     float: left;
     padding-left: 10px;
 }
-
+*/
 main > #topSeller > figure.firstProduct > #product5 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
-
+/*
 main > #topSeller > figure.firstProduct > #product6
 {
     float: left;
     padding-left: 10px;
 }
-
+*/
 main > #topSeller > figure.firstProduct > #product6 > img
 {
     height: 7cm;
     width: 5.5cm;
 }
+
 /* Footer section här */
 footer
 {
