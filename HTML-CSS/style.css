@@ -32,6 +32,27 @@ html, body{
     font-size: 9pt;
 }
 
+
+#topHeader > #option2
+{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+#topHeader > #option2 > li > a > img
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/*
 #topHeader > #option2
 {
     position: absolute;
@@ -41,37 +62,43 @@ html, body{
     font-size: 9pt;
 }
 
-#topHeader > #option2 >div#rightTop > li > img
+#topHeader > #option2 > li > img
 {
     width: 25px;
     height: 25px;
 }
 
-#topHeader > #option2 >div#rightTop > #login > img
+#topHeader > #option2 > #login > img
 {
     position: absolute;
     padding-left: 50px;
 }
 
-#topHeader > #option2 >div#rightTop > #onskelista > img
+#topHeader > #option2 > #onskelista > img
 {
     position: absolute;
     padding-left: 25px;
 
 }
 
-#topHeader > #option2 >div#rightTop > #onskelista > img
+#topHeader > #option2 > #kassa > a > img
 {
     position: absolute;
     padding-left: 25px;
+    width: 25px;
+    height: 25px;
 
 }
+
+*/
+
 
 #topHeader > #option1 > li > img
 {
     width: 25px;
     height: 20px;
 }
+
 /* Top Nav här */
 /* Navigationen ( menyn _) */
 .nav ul {
