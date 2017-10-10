@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="189" column="12" lean-forward="false" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="12" />
+            <state relative-caret-position="253">
+              <caret line="572" column="1" lean-forward="true" selection-start-line="572" selection-start-column="1" selection-end-line="572" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="checkout.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="131" column="12" lean-forward="false" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -70,10 +70,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/checkout.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/checkout.html" />
       </list>
     </option>
   </component>
@@ -174,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507196173484</updated>
       <workItem from="1507196174721" duration="12087000" />
-      <workItem from="1507617535638" duration="10777000" />
+      <workItem from="1507617535638" duration="12073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22864000" />
+    <option name="totallyTimeSpent" value="24160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="243" width="1260" height="446" extended-state="0" />
@@ -230,22 +230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/products.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -264,8 +248,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="189" column="12" lean-forward="false" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="12" />
+        <state relative-caret-position="253">
+          <caret line="572" column="1" lean-forward="true" selection-start-line="572" selection-start-column="1" selection-end-line="572" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="131" column="12" lean-forward="false" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
           <folding />
         </state>
       </provider>
