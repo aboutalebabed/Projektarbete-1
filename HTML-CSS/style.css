@@ -337,17 +337,22 @@ footer > p:nth-of-type(2)
 {
     margin-top: -20px;
 }
-
-footer > div.footerNav > ul > li > a > img
+footer > div.footerNav > ul > li > a > img:first-child
 {
     width: 50px;
     height: 50px;
 }
 
-footer > div.footerNav > li
+footer > div.footerNav > ul > li > a > img:nth-child
+ {
+     width: 40px;
+     height: 40px;
+ }
+
+/*footer > div.footerNav > li
 {
     padding: 5px;
-}
+}*/
 /* höjd=7cm // bredd=5.5cm = Bilderna på Produkterna som visas */
 
 
