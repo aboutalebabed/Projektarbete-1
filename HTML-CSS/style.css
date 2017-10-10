@@ -16,7 +16,8 @@ html, body{
 
 #topHeader > h1
 {
-    font-size: 20pt;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 24pt;
     padding: 25px;
    /* margin: 15px;*/
     margin: 0;
@@ -79,6 +80,11 @@ header#topHeader > ul#option1 > li > img
     text-align: center;
     padding: 0;
     margin: 0;
+}
+.nav > ul > li > a > img{
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
 }
 
 .nav li {
@@ -168,7 +174,7 @@ main > #offer > figure > ol > li{
 main > section > figure > img
 {
     width: 750px;
-    height: 250px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
