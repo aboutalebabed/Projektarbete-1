@@ -460,3 +460,63 @@ footer > div.footerNav > ul > li > a > img:nth-child
         float: left;
     }
 }
+
+
+/* Checkout page */
+
+section > img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.nestledContainer
+{
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #444;
+    padding: 10px;
+}
+
+#mainCheckout > section > form
+{
+
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.container > h1
+{
+    justify-content: flex-start;
+}
+
+.nestledContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.nestledContainer, p, img, form
+{
+    justify-content: space-between;
+}
+
+.totalPay
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.totalPay, p
+{
+    justify-content: space-between;
+}
+
+.totalPay p:first-child
+{
+    font-weight: bold;
+}

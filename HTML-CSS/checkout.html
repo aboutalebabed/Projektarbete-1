@@ -15,18 +15,22 @@
 <header id="topHeader">
     <h1>NUOVO</h1>
     <ul id="option1">
-        <li>FLAGGA</li>
+        <li><img src="images/icons/icon_se_flag.png" alt="Sverige"> </li>
         <li>SEK</li>
     </ul>
 
     <ul id="option2">
-        <li>Login</li>
-        <li>Önskelista</li>
-        <li>Kassa</li>
+        <div id="rightTop">
+            <li id="login"> <img src="images/icons/icon_profile.png" alt="Profil"> </li>
+            <li id="onskelista"> <img src="images/icons/icone_heart.png" alt="Önskelista"> </li>
+            <li id="kassa"> <img src="images/icons/icon_shopping_bag.png" alt="Kassa"> </li>
+        </div>
     </ul>
 </header>
 <header>
     <div class="nav">
+<<<<<<< HEAD
+=======
         <ul>
             <li class="home"><a href="index.html"><img src="images/icons/home-black.png"></a></li>
             <li class="dam"><a href="#">Dam</a>
@@ -56,6 +60,7 @@
 </header>
 
 <footer>
+<<<<<<< HEAD
     <div class="footerNav">
         <span>Follow us:</span>
         <ul>
@@ -64,6 +69,128 @@
             <li><a href="http://www.youtube.com"><img src='images/icons/icone_youtube.png'></a></li>
         </ul>
     </div>
+=======
+    <p>Copyright</p>
+    <p>Follow Us</p>
+    <nav id="footerNav">
+>>>>>>> 2b9183ad2b58fa584d3ea0f2c004ad8fdf6d6640
+        <ul>
+            <li class="home"><a href="index.html"><img src="images/icons/home-black.png"></a></li>
+            <li class="dam"><a href="#">Dam</a>
+                <ul>
+                    <li><a href="products.html">Toppar</a></li>
+                    <li><a href="products.html">Klänningar</a></li>
+                    <li><a href="products.html">Skor</a></li>
+                </ul>
+            </li>
+            <li class="herr"><a href="#">Herr</a>
+                <ul>
+                    <li><a href="products.html">Tröjor</a></li>
+                    <li><a href="products.html">Byxor</a></li>
+                    <li><a href="products.html">Skor</a></li>
+                </ul>
+            </li>
+            <li class="barn"><a href="#">Barn</a>
+                <ul>
+                    <li><a href="products.html">Tröjor</a></li>
+                    <li><a href="products.html">Byxor</a></li>
+                    <li><a href="products.html">Skor</a></li>
+                </ul>
+            </li>
+            <li class="contact"><a href="contact.html">Kontakta oss</a></li>
+        </ul>
+    </div>
+</header>
+
+<main>
+
+<section class="container">
+ <!--   <div id="mainCheckout"> -->
+        <h1>Checkout</h1>
+        <section class="nestledContainer">
+        <img src="images/products/BARN/dresses/ch-d%20(1).jpg">
+        <p>Produkt namn: Dress Svart</p>
+        <p>Pris: 500kr</p>
+
+            <form action="http://www.example.com/profile.php">
+                <p>Färg</p>
+                <select name="colour">
+                    <option value="svart">Svart</option>
+                    <option value="vit">Vit</option>
+                    <option value="röd">Röd</option>
+                </select>
+            </form>
+
+        </section>
+
+    <section class="totalPay">
+        <p>Totalt:</p>
+        <p>500kr</p>
+    </section>
+ <!--   </div> -->
+</section>
+
+
+    <section>
+        <form action="mailto:aboutalebabbe@gmail.com" enctype="text/plain" method="post">
+
+            <label for="fname">Förnamn: </label><br>
+            <input id="fname" minlength="3" type="text" placeholder="Förnamn" name="fname" pattern="[a-zA-Z ]+" required><br>
+
+            <label for="lname">Efternamn: </label><br>
+            <input id="lname" minlength="3" type="text" placeholder="Efternamn" name="lname" pattern="[a-zA-Z ]+" required><br>
+
+            <label for="address">Address: </label><br>
+            <input id="address" minlength="3" type="text" placeholder="Address" name="address" pattern="[a-zA-Z ]+[0-9]" required><br>
+
+            <label for="stad">Stad: </label><br>
+            <input id="stad" minlength="3" type="text" placeholder="Stad" name="stad" pattern="[a-zA-Z ]+" required><br>
+
+            <label for="postnr">Post nr: </label><br>
+            <input id="postnr" minlength="3" type="text" placeholder="Postnr" name="postnr" pattern="[0-9]{5}" required><br>
+
+            <label for="land">Land: </label><br>
+            <input id="land" minlength="3" type="text" placeholder="Land" name="land" pattern="[a-zA-Z ]+" required><br>
+
+            <label for="email">Email: </label><br>
+            <input id="email" type="email" placeholder="Email"  name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br>
+
+            <label>Välj frakt: </label><br>
+            <input value="Shipping" type="radio" name="Shipping" required>Standard<br>
+            <input value="Shipping" type="radio" name="Shipping" required>Express<br>
+            <input value="Shipping" type="radio" name="Shipping" required>Leverans Hem<br>
+
+            <div>
+                <label for="comments">Meddelande: </label><br>
+                <textarea name="comments" id="comments" minlength="10" maxlength="255" required></textarea>
+            </div>
+
+            <input type="submit" value="Skicka">
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <!-- <p>Copyright</p>
+     <p>Follow Us</p>
+     <nav id="footerNav">
+     <ul>
+         <li><a href="#"><img src="images/icons/facebook.png"> </a></li>
+         <li><a href="#"><img src="images/icons/facebook.png"> </a></li>
+         <li><a href="#"><img src="images/icons/facebook.png"> </a></li>
+     </ul>
+     </nav> -->
+
+    <div class="footerNav">
+        <span>Follow us:</span>
+        <li><a href="http://www.facebook.com"><img src='images/icons/facebook.png' /></a></li>
+        <li><a href="http://www.instagram.com"><img src='images/icons/icon_instagram.png' /></a></li>
+        <li><a href="http://www.youtube.com"><img src='images/icons/icone_youtube.png' /></a></li>
+    </div>
+>>>>>>> f71ad37bbb388d207a68012ffd0a7b4acd2e908d
 </footer>
 
 </body>
+</html>
