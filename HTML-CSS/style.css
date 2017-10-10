@@ -606,3 +606,14 @@ fieldset p
 .skickaKnapp:hover {
     background: #77a198;
 }
+
+
+/*Sök boxen */
+.searchBox
+{
+
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    background: #444;
+    float: right;
+}
