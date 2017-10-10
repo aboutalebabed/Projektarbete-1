@@ -114,17 +114,14 @@
 
             <label for="email">Email: </label><br>
             <input id="email" type="email" placeholder="Email"  name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br>
-
+            <fieldset class="fraktType">
+                <legend>Frakt typ</legend>
             <label>Välj frakt: </label><br>
-            <input value="Shipping" type="radio" name="Shipping" required>Standard<br>
-            <input value="Shipping" type="radio" name="Shipping" required>Express<br>
-            <input value="Shipping" type="radio" name="Shipping" required>Leverans Hem<br>
-
-            <div>
-                <label for="comments">Meddelande: </label><br>
-                <textarea name="comments" id="comments" minlength="10" maxlength="255" required></textarea>
-            </div>
-
+            <input value="Shipping" type="radio" name="Shipping" required> <img src="images/icons/icon_free_shipping.png"> Standard  <br>
+            <input value="Shipping" type="radio" name="Shipping" required> <img src="images/icons/icon_express_shipping.png"> Express  <br>
+            <input value="Shipping" type="radio" name="Shipping" required> <img src="images/icons/icon_home_shipping.png"> Leverans Hem <br>
+            </fieldset>
+                <br>
             <input class="skickaKnapp" type="submit" value="Skicka">
             </fieldset>
             </div>

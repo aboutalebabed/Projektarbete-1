@@ -557,14 +557,14 @@ div.fraktInfo
     background-color: darkgray;
 }
 
-fieldset
+div.fraktInfo > fieldset
 {
     border: none;
     margin: 0px 0px 0px 10px;
     padding: 10px;
 }
 
-legend
+div.fraktInfo > legend
 {
     font-size: 20px;
     color: white;
@@ -572,7 +572,7 @@ legend
     padding: 5px;
 }
 
-label.field
+div.fraktInfo > label.field
 {
     text-align: right;
     width: 100px;
@@ -580,13 +580,13 @@ label.field
     font-weight: bold;
 }
 
-input.textbox-300
+div.fraktInfo > input.textbox-300
 {
     width: 300px;
     float: left;
 }
 
-fieldset p
+div.fraktInfo > fieldset p
 {
     clear: both;
     padding: 5px;
@@ -616,4 +616,16 @@ fieldset p
     margin: 0px auto 0px auto;
     background: #444;
     float: right;
+}
+
+.searchBox > button
+{
+
+}
+
+/*Checkout page FRAKT SÄTT */
+.fraktType > img
+{
+    width: 45px;
+    height: 40px;
 }
