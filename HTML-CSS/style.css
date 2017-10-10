@@ -186,8 +186,8 @@ main > #offer > header > figure > ol{
     color: #f1f1f1;
     flex: 1;
     padding: 10px;
-
-
+    position: relative;
+    left: 65px;
 
 }
 
