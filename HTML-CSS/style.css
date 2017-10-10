@@ -228,7 +228,8 @@ main > section > figure > img
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 960px;
+    width: 1000px;
+    margin: 0 auto;
 
 }
 #topSeller figure
@@ -259,21 +260,98 @@ main > section > figure > img
     list-style-type: none;
 
 }
+.Categories > ul >li
+{
+    font-size: 11pt;
+    line-height: 16pt;
+    padding: 0;
+    list-style-type: none;
 
+}
 
 #topSeller
 {
-    width: 700px;
+    width: 800px;
 }
 /*buttons gilla och lägg i shoppingbag*/
-#topSeller > .firstProduct > #product1 > #shoppingBag{
+#topSeller > .firstProduct > #product1 > .shoppingBag{
     background: url("images/icons/icon_shopping_bag.png") no-repeat;
     background-size: cover;
     border: none;
     width: 25px;
     height: 25px;
 }
-#topSeller > .firstProduct > #product1 > #heart-It{
+#topSeller > .firstProduct > #product1 > .heart-It{
+    background: url("images/icons/icone_heart.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product2 > .shoppingBag{
+    background: url("images/icons/icon_shopping_bag.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product2 > .heart-It{
+    background: url("images/icons/icone_heart.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product3 > .shoppingBag{
+    background: url("images/icons/icon_shopping_bag.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product3 > .heart-It{
+    background: url("images/icons/icone_heart.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product4 > .shoppingBag{
+    background: url("images/icons/icon_shopping_bag.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product4 > .heart-It{
+    background: url("images/icons/icone_heart.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product5 > .shoppingBag{
+    background: url("images/icons/icon_shopping_bag.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product5 > .heart-It{
+    background: url("images/icons/icone_heart.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product6 > .shoppingBag{
+    background: url("images/icons/icon_shopping_bag.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+#topSeller > .firstProduct > #product6 > .heart-It{
     background: url("images/icons/icone_heart.png") no-repeat;
     background-size: cover;
     border: none;
@@ -281,11 +359,16 @@ main > section > figure > img
     height: 25px;
 }
 
+
 #topSeller > header > h2
 {
     text-align: center;
 }
 
+main > #topSeller > figure.firstProduct
+{
+    margin: 10px 10px 10px 10px;
+}
 main > #topSeller > figure.firstProduct > img
 {
     height: 7cm;
