@@ -13,21 +13,24 @@ html, body{
     background-color: lightgrey;
     margin: 0;
     width: 100%;
+    height: 150px;
 }
 
 #topHeader > h1
 {
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 24pt;
-    padding: 25px;
+    font-size: 40pt;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: left;
    /* margin: 15px;*/
     margin: 0;
-    padding-left: 250px;
+    padding-left: 215px;
 }
 
 #topHeader > #option1 {
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 15px;
     list-style: none;
     font-size: 9pt;
@@ -155,24 +158,26 @@ main
     border-color: black;
     width: 1000px;
     margin: 0 auto;
-    clear: both;
-}
 
-main > #offer{
+}
+main > section > figure > img{
     width: 960px;
-    display: flex;
-    flex-direction: column;
-
+    height: auto;
 }
 
-main > #offer > header > figure > img{
-    width: 1000px;
+main > #offer {
+    width: 960px;
+    display: block
+}
+
+main > #offer > figure > img{
+    width: 960px;
     height: auto;
     margin: 0 auto;
     display: block;
 
 }
-main > #offer > header > figure > p{
+main > #offer > figure > p{
 
     list-style-type: none;
     border: 1px solid white;
@@ -182,26 +187,18 @@ main > #offer > header > figure > p{
     margin: 0;
     padding: 10px 10px 10px 10px;
     color: #f1f1f1;
-    flex: 1;
-    padding: 10px;
     position: relative;
-    left: 0px;
+    left: 0;
 
 }
 
-
-main > #offer > figure > ol > li{
-    font-size: 16pt;
-    margin: 0;
-
-}
 
 main > section > figure > img
 {
     width: 1000px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
     display: block;
 }
 
