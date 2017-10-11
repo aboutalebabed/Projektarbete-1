@@ -163,14 +163,11 @@ main > #offer{
     flex-direction: column;
 
 }
-main > #offer > header > figure{
 
-}
 main > #offer > header > figure > img{
-    width: 750px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
     display: block;
 
 }
@@ -200,7 +197,7 @@ main > #offer > figure > ol > li{
 
 main > section > figure > img
 {
-    width: 750px;
+    width: 1000px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -234,11 +231,33 @@ main > #index-topSeller
     flex-wrap: nowrap;
     width: 1000px;
 }
+
+main > #index-topSeller > .index-Product{
+    justify-content: space-between;
+}
 main > #index-topSeller > .index-Product > img
 {
     width: 5.5cm;
     height: auto;
 }
+
+main > #index-topSeller > .index-Product >.heart-It
+{
+    background: url("images/icons/icone_heart.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+main > #index-topSeller > .index-Product >.shoppingBag
+{
+    background: url("images/icons/icon_shopping_bag.png") no-repeat;
+    background-size: cover;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+
 
 /* topSeller section dam herr barn */
 #containerCategories
