@@ -542,26 +542,16 @@ footer > ul > li > a > img
 
 
     main > section > figure > img {
-<<<<<<< HEAD
-        width: 35%;
-        float: left;
-=======
->>>>>>> 5ecbbabd4ff8460268a71d12720375967fcd9686
-
         width: 100%;
         float: left;
         height: auto;
         margin-left: 0;
 
     }
-<<<<<<< HEAD
+
     
-}
-=======
 
 
-
-    }
     main > section > figure {
         margin: 0;
 
@@ -569,7 +559,8 @@ footer > ul > li > a > img
     main {
         width: 100%;
     }
->>>>>>> 5ecbbabd4ff8460268a71d12720375967fcd9686
+    }
+
 
 
 /* kolla denna*//*******************************
