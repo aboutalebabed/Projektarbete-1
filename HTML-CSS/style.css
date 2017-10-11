@@ -594,10 +594,25 @@ footer > ul > li > a > img
     }
 
 }
-/************************************************************/
+/************************Joel************************************/
+@media screen and (min-width: 650px) {
+
+    main > section > figure > img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+<<<<<<< HEAD
+    
+    }
 
 
-/* kolla denna*/
+=======
+
+    }
+
+}
+>>>>>>> 50562306479a9199531fb0f8f10d9c17ccd2098e
+/* kolla denna*//*******************************
 @media screen and (max-width: 40.5em)  {
 
     #topHeader > h1
@@ -687,7 +702,7 @@ footer > ul > li > a > img
     }
 }
 
-
+***************************/
 /* Checkout page */
 
 section > img
