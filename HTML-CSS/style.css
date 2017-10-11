@@ -512,7 +512,7 @@ main > #topSeller > figure.firstProduct > #product6 > img
     height: auto;
     width: 5.5cm;
 }
-/* Kontakta oss Form Style*/
+/* Kontakta oss sida Style*/
 #container-ContactUs
 {
     display: flex;
@@ -851,10 +851,10 @@ footer > ul > li > a > img
 ***************************/
 /* Checkout page */
 
-section > img
+main > .container > .nestledContainer > img
 {
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: 4cm;
 }
 
 .nestledContainer
