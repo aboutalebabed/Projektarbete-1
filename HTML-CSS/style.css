@@ -395,10 +395,18 @@ main > #index-topSeller > .products > .index-Product >.shoppingBag
     height: 25px;
 }
 
+#topSeller > header{
+    width: 720px;
+    margin: 20px;
+}
 
 #topSeller > header > h2
 {
     text-align: center;
+    color: #62a395;
+    border-bottom: 0.5pt solid #62a395;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
 }
 
 main > #topSeller > figure.firstProduct
