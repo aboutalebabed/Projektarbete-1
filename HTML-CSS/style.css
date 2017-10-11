@@ -202,14 +202,6 @@ main > section > figure > img
     display: block;
 }
 
-
-/* Offer header section */
-/*#offer > header h2
-{
-    text-align: center;
-    border-style: solid;
-}
-*/
 #offer > header
 {
     width: 960px;
@@ -221,6 +213,7 @@ main > section > figure > img
 main > #index-topSeller > header > h2{
     display: block;
     text-align: center;
+    color: #62a395;
     border-bottom: 0.5pt solid #62a395;
     padding: 10px;
     margin: 0 auto;
@@ -416,81 +409,35 @@ main > #topSeller > figure.firstProduct > img
     width: 5.5cm;
 }
 
-/*main > #topSeller > figure.firstProduct
-{
-    float: left;
-    padding-left: 10px;
-}
-
-main > #topSeller > figure.firstProduct > #product1
-{
-    float: left;
-    padding-left: 10px;
-}
-*/
 main > #topSeller > figure.firstProduct > #product1 > img
 {
     height: auto;
     width: 5.5cm;
 }
-/*
-main > #topSeller > figure.firstProduct > #product2
-{
-    float: left;
-    padding-left: 10px;
-}
-*/
+
 main > #topSeller > figure.firstProduct > #product2 > img
 {
     height: auto;
     width: 5.5cm;
 }
-/*
-main > #topSeller > figure.firstProduct > #product3
-{
-    float: left;
-    padding-left: 10px;
-}
-*/
 
 main > #topSeller > figure.firstProduct > #product3 > img
 {
     height: auto;
     width: 5.5cm;
 }
-/*
-main > #topSeller > figure.firstProduct > #product4
-{
-    float: left;
-    padding-left: 10px;
-}
-*/
 
 main > #topSeller > figure.firstProduct > #product4 > img
 {
     height: auto;
     width: 5.5cm;
 }
-/*
-main > #topSeller > figure.firstProduct > #product5
-{
-    float: left;
-    padding-left: 10px;
-}
-*/
 
 main > #topSeller > figure.firstProduct > #product5 > img
 {
     height: auto;
     width: 5.5cm;
 }
-/*
-main > #topSeller > figure.firstProduct > #product6
-{
-    float: left;
-    padding-left: 10px;
-}
-*/
 
 main > #topSeller > figure.firstProduct > #product6 > img
 {
@@ -536,7 +483,6 @@ footer > ul > li > a > img
     width: 30px;
     height: 30px;
 }
-
 
 /* höjd=7cm // bredd=5.5cm = Bilderna på Produkterna som visas */
 
@@ -596,6 +542,11 @@ footer > ul > li > a > img
 
 
     main > section > figure > img {
+<<<<<<< HEAD
+        width: 35%;
+        float: left;
+=======
+>>>>>>> 5ecbbabd4ff8460268a71d12720375967fcd9686
 
         width: 100%;
         float: left;
@@ -603,6 +554,10 @@ footer > ul > li > a > img
         margin-left: 0;
 
     }
+<<<<<<< HEAD
+    
+}
+=======
 
 
 
@@ -614,6 +569,7 @@ footer > ul > li > a > img
     main {
         width: 100%;
     }
+>>>>>>> 5ecbbabd4ff8460268a71d12720375967fcd9686
 
 
 /* kolla denna*//*******************************
