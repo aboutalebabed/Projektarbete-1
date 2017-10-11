@@ -461,9 +461,22 @@ main > #contact-us > form
 }
 main > #contact-us > form > fieldset
 {
+    display: flex;
+    flex-direction: column;
     border: 0.8pt solid #62a395;
     height: 400px;
     margin: 50px auto 50px auto;
+    line-height: 30pt;
+}
+main > #contact-us > form > fieldset > legend
+{
+    color: #62a395;
+    font-size: 26pt;
+}
+main > #contact-us > form > fieldset > label
+{
+    color: #62a395;
+    font-size: 14pt;
 }
 
 .skickaKnapp
