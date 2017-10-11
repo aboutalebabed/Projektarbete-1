@@ -188,8 +188,8 @@ main > #offer > p{
     border-top: 1pt solid #D11216;
     border-bottom: 1pt solid #D11216 ;
     display: block;
-    margin: 10px 0 10px 0;
-    padding: 10px 10px 10px 10px;
+    margin: 10px auto 10px auto;
+    padding: 10px 0 10px 0;
     color: #D11216;
     position: relative;
     text-align: center;
