@@ -23,11 +23,11 @@ html, body{
     font-weight: bold;
     padding-top: 30px;
     text-align: left;
-   /* margin: 15px;*/
+
     margin: 0;
     padding-left: 215px;
 }
-
+/*icon nav*/
 #topHeader > #option1 {
     position: absolute;
     top: 0;
@@ -153,28 +153,33 @@ html, body{
 
 main
 {
-    /*border-right-style: solid;
-    border-left-style: solid;*/
-    border-color: black;
     width: 1000px;
     margin: 0 auto;
 
 }
-main > section > figure > img{
-    width: 960px;
-    height: auto;
+/* --- SPREAD IMAGE --- */
+main >#spread-index > figure
+{
+    width: 1000px;
+    margin: 0 auto;
 }
-
-main > #offer {
-    width: 960px;
-    display: block
+main > #spread-index > figure > img{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+/* rea bild offer */
+main > #offer > figure
+{
+    width: 1000px;
+    margin: 0 auto;
 }
 
 main > #offer > figure > img{
-    width: 960px;
+    width: 1000px;
     height: auto;
     margin: 0 auto;
-    display: block;
+
 
 }
 main > #offer > p{
@@ -195,23 +200,6 @@ main > #offer > p{
 
 }
 
-
-main > section > figure > img
-{
-    width: 100%;
-    height: auto;
-    /*margin-left: auto;
-    margin-right: auto;*/
-    display: block;
-}
-
-#offer > header
-{
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
 /* topSeller section home-index */
 main > #index-topSeller > header > h2{
     display: block;
