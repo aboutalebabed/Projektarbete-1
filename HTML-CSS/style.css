@@ -625,10 +625,17 @@ footer > div.footerNav > ul > li > a > img:nth-child
         width: 100%;
         height: auto;
         margin-left: 0;
+<<<<<<< HEAD
     
     }
 
 
+=======
+
+    }
+
+}
+>>>>>>> 50562306479a9199531fb0f8f10d9c17ccd2098e
 /* kolla denna*//*******************************
 @media screen and (max-width: 40.5em)  {
 
