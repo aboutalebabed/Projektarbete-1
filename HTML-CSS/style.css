@@ -604,6 +604,13 @@ footer > div.footerNav > ul > li > a > img:nth-child
     .nav li ul li {
         display: block;
     }
+    main > section > figure > img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+
+    }
+
 }
 
 
