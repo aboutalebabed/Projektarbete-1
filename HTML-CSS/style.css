@@ -595,18 +595,15 @@ footer > ul > li > a > img
 @media screen and (max-width: 650px) {
 
     main > section > figure > img {
-<<<<<<< HEAD
         width: 35%;
         float: left;
-=======
+
         width: 100%;
         height: auto;
         margin-left: 0;
     }
-
->>>>>>> caf969221671ee9bc235e1b1216f7ff1deade77b
-
-    }
+    
+}
 
 /* kolla denna*//*******************************
 @media screen and (max-width: 40.5em)  {
