@@ -152,11 +152,11 @@ main
     /*border-right-style: solid;
     border-left-style: solid;*/
     border-color: black;
-    width: 960px;
+    width: 1000px;
     margin: 0 auto;
     clear: both;
-
 }
+
 main > #offer{
     width: 960px;
     display: flex;
@@ -180,7 +180,7 @@ main > #offer > header > figure > ol{
     border: 1px solid white;
     border-radius: 10px;
     display: inline-block;
-    background-color: deeppink; /*no background color, should be placed inside image offer, just visual to see*/
+    background-color: #D11216; /*no background color, should be placed inside image offer, just visual to see*/
     margin: 0;
     padding: 10px 10px 10px 10px;
     color: #f1f1f1;
@@ -222,7 +222,25 @@ main > section > figure > img
     margin-right: auto;
     display: block;
 }
-/* topSellfer section */
+/* topSeller section home-index */
+main > #index-topSeller > header{
+    display: flex;
+    flex-direction: column;
+}
+main > #index-topSeller
+{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 1000px;
+}
+main > #index-topSeller > .index-Product > img
+{
+    width: 5.5cm;
+    height: auto;
+}
+
+/* topSeller section dam herr barn */
 #containerCategories
 {
     display: flex;
