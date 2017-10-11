@@ -6,6 +6,9 @@ html, body{
     padding: 0;
     font-family: "Julius Sans One",sans-serif;
 }
+#container {
+    width: 100%;
+}
 
 /*  Header menyerna SEK osv... */
 #topHeader
@@ -538,36 +541,30 @@ footer > ul > li > a > img
 
 }
 /************************Joel************************************/
-<<<<<<< HEAD
-@media screen and (max-device-width: 768px) {
-=======
-@media screen and (max-width: 650px) {
->>>>>>> 8a2ec34d9016ebd3c1bb7686d966e86715fc26cd
+@media screen and (max-width: 768px) {
+
 
     main > section > figure > img {
-<<<<<<< HEAD
-        width: 35%;
-        float: left;
-=======
+
         width: 100%;
+        float: left;
         height: auto;
-<<<<<<< HEAD
-=======
         margin-left: 0;
+
     }
 
->>>>>>> caf969221671ee9bc235e1b1216f7ff1deade77b
->>>>>>> 8a2ec34d9016ebd3c1bb7686d966e86715fc26cd
+
 
     }
     main > section > figure {
         margin: 0;
 
-<<<<<<< HEAD
     }
-}
-=======
->>>>>>> 8a2ec34d9016ebd3c1bb7686d966e86715fc26cd
+    main {}
+        /*width: 100%;*\
+    }
+
+
 /* kolla denna*//*******************************
 @media screen and (max-width: 40.5em)  {
 
