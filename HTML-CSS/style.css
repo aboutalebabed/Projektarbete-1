@@ -540,7 +540,7 @@ footer > ul > li > a > img
     height: 30px;
 }
 
-/
+
 /* höjd=7cm // bredd=5.5cm = Bilderna på Produkterna som visas */
 
 
@@ -601,17 +601,11 @@ footer > ul > li > a > img
         width: 100%;
         height: auto;
         margin-left: 0;
-<<<<<<< HEAD
-    
     }
 
 
-=======
-
     }
 
-}
->>>>>>> 50562306479a9199531fb0f8f10d9c17ccd2098e
 /* kolla denna*//*******************************
 @media screen and (max-width: 40.5em)  {
 
