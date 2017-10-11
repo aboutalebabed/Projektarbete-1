@@ -198,7 +198,7 @@ main > #offer > figure > ol > li{
 
 main > section > figure > img
 {
-    width: 1000px;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -619,23 +619,18 @@ footer > div.footerNav > ul > li > a > img:nth-child
 
 }
 /************************Joel************************************/
-@media screen and (min-width: 650px) {
+@media screen and (max-device-width: 768px) {
 
     main > section > figure > img {
         width: 100%;
         height: auto;
-        margin-left: 0;
-<<<<<<< HEAD
-    
-    }
-
-
-=======
 
     }
+    main > section > figure {
+        margin: 0;
 
+    }
 }
->>>>>>> 50562306479a9199531fb0f8f10d9c17ccd2098e
 /* kolla denna*//*******************************
 @media screen and (max-width: 40.5em)  {
 
