@@ -536,7 +536,7 @@ main > #topSeller > figure.firstProduct > #product6 > img
     display: flex;
     flex-direction: column;
     border: 0.8pt solid #62a395;
-    height: 400px;
+    height: 460px;
     margin: 50px auto 50px auto;
     line-height: 30pt;
 }
@@ -565,18 +565,15 @@ main > #topSeller > figure.firstProduct > #product6 > img
     padding: 10px 0 10px 0;
 }
 
-.skickaKnapp
+input[type="submit"]
 {
-    background: linear-gradient(#49708f, #293f50);
-    border: 0;
-    color: #fff;
-    cursor: pointer;
-    font-weight: bold;
-    float: left;
-    padding: 8px 16px;
+    background-color: #62a395;
+    color: white;
+    border: none;
+    padding: 10px;
 }
 
-.skickaKnapp:hover {
+input:last-of-type:hover {
     background: #77a198;
 }
 
