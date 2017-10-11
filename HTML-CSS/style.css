@@ -4,6 +4,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    font-family: "Julius Sans One",sans-serif;
 }
 
 /*  Header menyerna SEK osv... */
@@ -100,7 +101,7 @@ html, body{
 }
 
 /* Top Nav här */
-/* Navigationen ( menyn _) */
+/* Navigationen ( menyn _) *//************************************************************
 .nav ul {
     list-style: none;
     background-color: #444;
@@ -140,7 +141,7 @@ html, body{
     cursor: default;
 }
 
-/* Under menyn */
+/* Under menyn *//************************************************************
 .nav li li {
     font-size: .8em;
 }
@@ -212,7 +213,7 @@ main > section > figure > img
     border-style: solid;
 }
 */
-#offer >header
+#offer > header
 {
     width: 960px;
     margin-left: auto;
@@ -220,28 +221,33 @@ main > section > figure > img
     display: block;
 }
 /* topSeller section home-index */
-main > #index-topSeller > header{
-    display: flex;
-    flex-direction: column;
+main > #index-topSeller > header > h2{
+    display: block;
+    text-align: center;
+    border-bottom: 0.5pt solid #62a395;
+    padding: 10px;
+    margin: 0 auto;
 }
-main > #index-topSeller
+
+
+main > #index-topSeller > .products
 {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 1000px;
 }
 
-main > #index-topSeller > .index-Product{
+main > #index-topSeller > .products > .index-Product{
     justify-content: space-between;
 }
-main > #index-topSeller > .index-Product > img
+main > #index-topSeller > .products > .index-Product > img
 {
     width: 5.5cm;
     height: auto;
 }
 
-main > #index-topSeller > .index-Product >.heart-It
+main > #index-topSeller > .products > .index-Product >.heart-It
 {
     background: url("images/icons/icone_heart.png") no-repeat;
     background-size: cover;
@@ -249,7 +255,7 @@ main > #index-topSeller > .index-Product >.heart-It
     width: 25px;
     height: 25px;
 }
-main > #index-topSeller > .index-Product >.shoppingBag
+main > #index-topSeller > .products > .index-Product >.shoppingBag
 {
     background: url("images/icons/icon_shopping_bag.png") no-repeat;
     background-size: cover;
@@ -566,7 +572,7 @@ footer > div.footerNav > ul > li > a > img:nth-child
 /*******************************************
 650px Mobila enheter detta är för menyn bara
 ********************************************/
-
+/************************************************************
 @media screen and (min-width: 650px) {
     .nav li {
         width: 130px;
@@ -590,7 +596,7 @@ footer > div.footerNav > ul > li > a > img:nth-child
         padding-left: 0;
     }
 
-    /* Under menyer */
+    /* Under menyer *//************************************************************
     .nav li ul {
         position: absolute;
         display: none;
@@ -612,7 +618,7 @@ footer > div.footerNav > ul > li > a > img:nth-child
     }
 
 }
-
+/************************************************************/
 
 
 /* kolla denna*/
@@ -829,10 +835,11 @@ div.fraktInfo > fieldset p
 .searchBox
 {
 
-    padding: 15px;
+    padding: 0px;
     margin: 0px auto 0px auto;
     background: #444;
     float: right;
+    padding-bottom: 23px;
 }
 
 .searchBox > button
@@ -845,4 +852,67 @@ div.fraktInfo > fieldset p
 {
     width: 45px;
     height: 40px;
+}
+/************************************************************ NAV HÄR nya */
+div.nav > ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+    text-align: center;
+}
+
+div.nav > ul > li
+{
+    display: inline-block;
+}
+
+li a, .dropbtn
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.nav > ul > li a:hover, .dropdown:hover .dropbtn
+{
+    background-color: #005f5f;
+}
+
+li.dropdown
+{
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover
+{
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
 }
