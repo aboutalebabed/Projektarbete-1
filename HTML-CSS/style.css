@@ -6,9 +6,6 @@ html, body{
     padding: 0;
     font-family: "Julius Sans One",sans-serif;
 }
-#container {
-    width: 100%;
-}
 
 /*  Header menyerna SEK osv... */
 #topHeader
@@ -614,8 +611,8 @@ footer > ul > li > a > img
         margin: 0;
 
     }
-    main {}
-        /*width: 100%;*\
+    main {
+        width: 100%;
     }
 
 
