@@ -446,6 +446,40 @@ main > #topSeller > figure.firstProduct > #product6 > img
     height: auto;
     width: 5.5cm;
 }
+/* Kontakta oss Form Style*/
+
+main > #contact-us
+{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+main > #contact-us > form
+{
+    width: 1000px;
+    height: 500px;
+}
+main > #contact-us > form > fieldset
+{
+    border: 0.8pt solid #62a395;
+    height: 400px;
+    margin: 50px auto 50px auto;
+}
+
+.skickaKnapp
+{
+    background: linear-gradient(#49708f, #293f50);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    padding: 8px 16px;
+}
+
+.skickaKnapp:hover {
+    background: #77a198;
+}
 
 
 /* Footer section här */
@@ -775,64 +809,6 @@ section > img
     font-weight: bold;
 }
 
-/* Chekhout Form Style*/
-
-div.fraktInfo
-{
-    border: solid black thin;
-    width: 500px;
-    background-color: darkgray;
-}
-
-div.fraktInfo > fieldset
-{
-
-    margin: 15px 15px 15px 15px;
-    padding: 10px;
-}
-
-div.fraktInfo > fieldset > legend
-{
-    font-size: 20px;
-    color: white;
-    width: 100%;
-    padding: 5px;
-}
-
-div.fraktInfo > fieldset > label.field
-{
-    text-align: right;
-    width: 100px;
-    float: left;
-    font-weight: bold;
-}
-
-div.fraktInfo > input.textbox-300
-{
-    width: 300px;
-    float: left;
-}
-
-div.fraktInfo > fieldset p
-{
-    clear: both;
-    padding: 5px;
-}
-
-.skickaKnapp
-{
-    background: linear-gradient(#49708f, #293f50);
-    border: 0;
-    color: #fff;
-    cursor: pointer;
-    font-weight: bold;
-    float: left;
-    padding: 8px 16px;
-}
-
-.skickaKnapp:hover {
-    background: #77a198;
-}
 
 
 /*Sök boxen */
