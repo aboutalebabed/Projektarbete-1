@@ -210,17 +210,19 @@ main > #index-topSeller > header > h2{
     margin: 50px auto 10px auto;
 }
 
-
 main > #index-topSeller > .products
 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 1000px;
+
 }
 
-main > #index-topSeller > .products > .index-Product{
+main > #index-topSeller > .products > .index-Product
+{
     justify-content: space-between;
+    margin: 20px auto 60px auto;
 }
 main > #index-topSeller > .products > .index-Product > img
 {
