@@ -503,68 +503,44 @@ main > #topSeller > figure.firstProduct > #product6 > img
 
 
 /* Footer section här */
+
 footer
 {
-    background-color: lightgrey;
-    text-align: center;
-    float: left; :important;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #444444;
     width: 100%;
+    height: 90px;
 }
-.footerNav
- {
-     float: right;
-     margin-top:5px;
- }
+footer > ul
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-.footerNav ul
+footer > p{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+footer > ul > li
 {
     list-style-type: none;
-    display: inline;
-    float:right;
     margin: 0;
+    padding-top: 20px;
 }
-footer > #footerNav > ul > li
+footer > ul > li > a > img
 {
-    list-style: none;
-    text-align: right;
-    float: right;
-    display: inline;
-}
-
-footer > p:first-of-type
-{
-    text-align: left;
-    padding-left: 40px;
-    padding-top: 45px;
+    width: 30px;
+    height: 30px;
 }
 
-footer > p:nth-of-type(2)
-{
-    text-align: right;
-}
-
-
-
-.footerNav span
-{
-    margin-top: -20px;
-}
-footer > div.footerNav > ul > li > a > img:first-child
-{
-    width: 50px;
-    height: 50px;
-}
-
-footer > div.footerNav > ul > li > a > img:nth-child
- {
-     width: 40px;
-     height: 40px;
- }
-
-/*footer > div.footerNav > li
-{
-    padding: 5px;
-}*/
+/
 /* höjd=7cm // bredd=5.5cm = Bilderna på Produkterna som visas */
 
 
