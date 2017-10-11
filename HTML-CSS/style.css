@@ -619,9 +619,19 @@ footer > div.footerNav > ul > li > a > img:nth-child
 
 }
 /************************************************************/
+@media screen and (min-width: 650px) {
+
+    main > section > figure > img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+
+    }
+
+}
 
 
-/* kolla denna*/
+/* kolla denna*//*******************************
 @media screen and (max-width: 40.5em)  {
 
     #topHeader > h1
@@ -711,7 +721,7 @@ footer > div.footerNav > ul > li > a > img:nth-child
     }
 }
 
-
+***************************/
 /* Checkout page */
 
 section > img
