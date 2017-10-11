@@ -172,7 +172,7 @@ main > #offer > header > figure > img{
     display: block;
 
 }
-main > #offer > header > figure > ol{
+main > #offer > header > figure > p{
 
     list-style-type: none;
     border: 1px solid white;
@@ -185,7 +185,7 @@ main > #offer > header > figure > ol{
     flex: 1;
     padding: 10px;
     position: relative;
-    left: 65px;
+    left: 0px;
 
 }
 
