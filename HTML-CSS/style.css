@@ -619,12 +619,11 @@ footer > div.footerNav > ul > li > a > img:nth-child
 
 }
 /************************Joel************************************/
-@media screen and (min-width: 650px) {
+@media screen and (max-width: 650px) {
 
     main > section > figure > img {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
+        width: 35%;
+        float: left;
 
     }
 
