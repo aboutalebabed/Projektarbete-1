@@ -447,19 +447,25 @@ main > #topSeller > figure.firstProduct > #product6 > img
     width: 5.5cm;
 }
 /* Kontakta oss Form Style*/
-
-main > #contact-us
+#container-ContactUs
 {
-    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container-ContactUs > #contact-us
+{
+    width: 800px;
     height: auto;
     margin: 0 auto;
 }
-main > #contact-us > form
+#container-ContactUs > #contact-us > form
 {
-    width: 1000px;
+    width: 500px;
     height: 500px;
 }
-main > #contact-us > form > fieldset
+#container-ContactUs > #contact-us > form > fieldset
 {
     display: flex;
     flex-direction: column;
@@ -468,15 +474,29 @@ main > #contact-us > form > fieldset
     margin: 50px auto 50px auto;
     line-height: 30pt;
 }
-main > #contact-us > form > fieldset > legend
+#container-ContactUs > #contact-us > form > fieldset > legend
 {
     color: #62a395;
     font-size: 26pt;
 }
-main > #contact-us > form > fieldset > label
+#container-ContactUs > #contact-us > form > fieldset > label
 {
     color: #62a395;
     font-size: 14pt;
+}
+#container-ContactUs > #kontaktUppgifter
+{
+    margin-top: 42px;
+    padding: 10px;
+}
+
+#container-ContactUs > #kontaktUppgifter > header
+{
+    color: #62a395;
+}
+#container-ContactUs > #kontaktUppgifter > p
+{
+    padding: 10px 0 10px 0;
 }
 
 .skickaKnapp
