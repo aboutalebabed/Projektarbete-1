@@ -615,12 +615,20 @@ main > section:last-child > form > .fraktInfo > fieldset > legend
 }
 main > section:last-child > form > .fraktInfo > fieldset > label
 {
-    padding: 10px;
+    padding: 10px 0 10px 0;
     font-size: 12pt;
 }
 main > section:last-child > form > .fraktInfo > fieldset > input
 {
     padding: 4px;
+}
+input[type="radio"]
+{
+    padding: 0 20px 0 20px;
+}
+main > section:last-child > form > .fraktInfo > fieldset > fieldset > img
+{
+    padding: 0 5px 0 10px;
 }
 /* Footer section här */
 
