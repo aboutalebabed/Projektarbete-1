@@ -150,7 +150,73 @@ html, body{
 }
 
 /* Main börjar här */
+/************************************************************ NAV HÄR nya */
+div.nav > ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+    text-align: center;
+}
 
+div.nav > ul > li
+{
+    display: inline-block;
+}
+
+li a, .dropbtn
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.nav > ul > li a:hover, .dropdown:hover .dropbtn
+{
+    background-color: #005f5f;
+}
+
+li.dropdown
+{
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover
+{
+    background-color: #f1f1f1
+}
+
+#thisPage
+{
+    background-color: #005f5f;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
 main
 {
     width: 1000px;
@@ -446,7 +512,7 @@ main > #topSeller > figure.firstProduct > #product6 > img
     height: auto;
     width: 5.5cm;
 }
-/* Kontakta oss Form Style*/
+/* Kontakta oss sida Style*/
 #container-ContactUs
 {
     display: flex;
@@ -470,7 +536,7 @@ main > #topSeller > figure.firstProduct > #product6 > img
     display: flex;
     flex-direction: column;
     border: 0.8pt solid #62a395;
-    height: 400px;
+    height: 460px;
     margin: 50px auto 50px auto;
     line-height: 30pt;
 }
@@ -499,22 +565,41 @@ main > #topSeller > figure.firstProduct > #product6 > img
     padding: 10px 0 10px 0;
 }
 
-.skickaKnapp
+input[type="submit"]
 {
-    background: linear-gradient(#49708f, #293f50);
-    border: 0;
-    color: #fff;
-    cursor: pointer;
-    font-weight: bold;
-    float: left;
-    padding: 8px 16px;
+    background-color: #62a395;
+    color: white;
+    border: none;
+    padding: 10px;
 }
 
-.skickaKnapp:hover {
+input:last-of-type:hover {
     background: #77a198;
 }
 
+/* Checkout page style delivery form*/
+main > section:last-child > form
+{
+    width: 1000px;
+    margin: 0 auto;
+    height: 700px;
+}
+main > section:last-child > form > .fraktInfo > fieldset
+{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    color: #62a395;
+}
+main > section:last-child > form > .fraktInfo > fieldset
+{
+     border: 0.8pt solid #62a395;
+}
 
+main > section:last-child > form > .fraktInfo > fieldset > fieldset
+{
+    border: 0.8pt solid #62a395;
+}
 /* Footer section här */
 
 footer
@@ -840,10 +925,10 @@ footer > ul > li > a > img
 ***************************/
 /* Checkout page */
 
-section > img
+main > .container > .nestledContainer > img
 {
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: 4cm;
 }
 
 .nestledContainer
@@ -854,10 +939,7 @@ section > img
     padding: 10px;
 }
 
-#mainCheckout > section > form
-{
 
-}
 
 .container
 {
