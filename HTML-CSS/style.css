@@ -191,7 +191,7 @@ li.dropdown
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -530,15 +530,17 @@ main > #topSeller > figure.firstProduct > #product6 > img
 {
     width: 500px;
     height: 500px;
+    margin-bottom: 50px;
 }
 #container-ContactUs > #contact-us > form > fieldset
 {
     display: flex;
     flex-direction: column;
     border: 0.8pt solid #62a395;
-    height: 460px;
+    height: 430px;
     margin: 50px auto 50px auto;
     line-height: 30pt;
+    padding: 20px;
 }
 #container-ContactUs > #contact-us > form > fieldset > legend
 {
@@ -548,7 +550,12 @@ main > #topSeller > figure.firstProduct > #product6 > img
 #container-ContactUs > #contact-us > form > fieldset > label
 {
     color: #62a395;
-    font-size: 14pt;
+    font-size: 12pt;
+}
+
+#container-ContactUs > #contact-us > form > fieldset > input
+{
+    padding: 4px;
 }
 #container-ContactUs > #kontaktUppgifter
 {
@@ -571,35 +578,128 @@ input[type="submit"]
     color: white;
     border: none;
     padding: 10px;
+    margin: 10px 0 10px 0;
 }
 
 input:last-of-type:hover {
     background: #77a198;
+}
+/* Checkout page */
+.fraktType > img
+{
+    width: 45px;
+    height: 40px;
+}
+
+main > .container > .nestledContainer > img
+{
+    width: auto;
+    height: 4cm;
+}
+
+.nestledContainer
+{
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #444;
+    padding: 10px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.container > h1
+{
+    justify-content: flex-start;
+    color: #62a395;
+    font-size: 26pt;
+}
+
+.nestledContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.nestledContainer, p, img, form
+{
+    justify-content: space-between;
+}
+.container > .nestledContainer > p
+{
+    font-weight: bold;
+}
+
+.container > .nestledContainer > form > p
+{
+    font-weight: bold;
+}
+
+.totalPay
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.totalPay, p
+{
+    justify-content: space-between;
+}
+
+.totalPay p:first-child
+{
+    font-weight: bold;
 }
 
 /* Checkout page style delivery form*/
 main > section:last-child > form
 {
     width: 1000px;
-    margin: 0 auto;
+    margin: 30px auto 40px auto;
     height: 700px;
 }
 main > section:last-child > form > .fraktInfo > fieldset
 {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 650px;
     color: #62a395;
-}
-main > section:last-child > form > .fraktInfo > fieldset
-{
-     border: 0.8pt solid #62a395;
+    border: 0.8pt solid #62a395;
+    padding: 20px;
 }
 
 main > section:last-child > form > .fraktInfo > fieldset > fieldset
 {
     border: 0.8pt solid #62a395;
+    padding: 20px;
+    margin: 20px 0 20px 0;
 }
+
+main > section:last-child > form > .fraktInfo > fieldset > legend
+{
+    font-size: 26pt;
+}
+main > section:last-child > form > .fraktInfo > fieldset > label
+{
+    padding: 10px 0 10px 0;
+    font-size: 12pt;
+}
+main > section:last-child > form > .fraktInfo > fieldset > input
+{
+    padding: 4px;
+}
+input[type="radio"]
+{
+    padding: 0 20px 0 20px;
+}
+main > section:last-child > form > .fraktInfo > fieldset > fieldset > img
+{
+    padding: 0 5px 0 10px;
+}
+
 /* Footer section här */
 
 footer
@@ -848,152 +948,6 @@ footer > ul > li > a > img
 
 
 
-/* kolla denna*//*******************************
-@media screen and (max-width: 40.5em)  {
-
-    #topHeader > h1
-    {
-        width: 30%;
-        float: left;
-    }
-
-    #option1
-    {
-        width: 30%;
-        float: left;
-    }
-
-    #option2
-    {
-        width: 30%;
-        float: left;
-    }
-
-    .searchBox
-    {
-        width: 30%;
-        float: left;
-    }
-
-    .nav
-    {
-
-    }
-
-    #topHeader
-    {
-        display:none;
-    }
-
-    main > section > figure > img
-    {
-        width: 30%;
-        float: left;
-        height: 30%;
-    }
-
-    main > #offer > header > figure > img
-    {
-        width: 30%;
-        float: left;
-    }
-
-    main > #offer > header > figure > ol > li
-    {
-        width: 30%;
-        float: left;
-    }
-
-    main > #topSeller > header > h2
-    {
-        width: 30%;
-        float: left;
-    }
-
-    main > #topSeller > figure.firstProduct > #product1 > img
-    {
-        width: 20%;
-        height: 20%;
-        float: left;
-    }
-
-    main > #topSeller > figure.firstProduct > #product2 > img
-    {
-        width: 20%;
-        height: 20%;
-        float: left;
-    }
-
-    main > #topSeller > figure.firstProduct > #product3 > img
-    {
-        width: 20%;
-        height: 20%;
-        float: left;
-    }
-
-    footer > div.footerNav > li > a > img
-    {
-        width: 40px;
-        float: left;
-    }
-}
-
-***************************/
-/* Checkout page */
-
-main > .container > .nestledContainer > img
-{
-    width: auto;
-    height: 4cm;
-}
-
-.nestledContainer
-{
-    border-top: solid;
-    border-bottom: solid;
-    border-color: #444;
-    padding: 10px;
-}
-
-
-
-.container
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.container > h1
-{
-    justify-content: flex-start;
-}
-
-.nestledContainer
-{
-    display: flex;
-    flex-direction: row;
-}
-
-.nestledContainer, p, img, form
-{
-    justify-content: space-between;
-}
-
-.totalPay
-{
-    display: flex;
-    flex-direction: row;
-}
-
-.totalPay, p
-{
-    justify-content: space-between;
-}
-
-.totalPay p:first-child
-{
-    font-weight: bold;
-}
 
 
 
@@ -1001,84 +955,13 @@ main > .container > .nestledContainer > img
 .searchBox
 {
 
-    padding: 0;
+    padding: 0 0 23px 0;
     margin: 0 auto 0 auto;
     background: #444;
     float: right;
-    padding-bottom: 23px;
 }
 
 .searchBox > button
 {
 
-}
-
-/*Checkout page FRAKT SÄTT */
-.fraktType > img
-{
-    width: 45px;
-    height: 40px;
-}
-/************************************************************ NAV HÄR nya */
-div.nav > ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #444;
-    text-align: center;
-}
-
-div.nav > ul > li
-{
-    display: inline-block;
-}
-
-li a, .dropbtn
-{
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-div.nav > ul > li a:hover, .dropdown:hover .dropbtn
-{
-    background-color: #005f5f;
-}
-
-li.dropdown
-{
-    display: inline-block;
-}
-
-.dropdown-content
-{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a
-{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover
-{
-    background-color: #f1f1f1
-}
-
-.dropdown:hover .dropdown-content
-{
-    display: block;
 }
