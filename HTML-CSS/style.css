@@ -581,24 +581,38 @@ input:last-of-type:hover {
 main > section:last-child > form
 {
     width: 1000px;
-    margin: 0 auto;
+    margin: 30px auto 40px auto;
     height: 700px;
 }
 main > section:last-child > form > .fraktInfo > fieldset
 {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 650px;
     color: #62a395;
-}
-main > section:last-child > form > .fraktInfo > fieldset
-{
-     border: 0.8pt solid #62a395;
+    border: 0.8pt solid #62a395;
+    padding: 20px;
 }
 
 main > section:last-child > form > .fraktInfo > fieldset > fieldset
 {
     border: 0.8pt solid #62a395;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+}
+
+main > section:last-child > form > .fraktInfo > fieldset > legend
+{
+    font-size: 26pt;
+}
+main > section:last-child > form > .fraktInfo > fieldset > label
+{
+    padding: 10px;
+    font-size: 12pt;
+}
+main > section:last-child > form > .fraktInfo > fieldset > input
+{
+    padding: 4px;
 }
 /* Footer section här */
 
