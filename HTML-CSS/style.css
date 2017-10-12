@@ -815,7 +815,7 @@ footer > ul > li > a > img
     }
 
     main > #offer > figure > img{
-        width: 1000px;
+        width: 100%;
         height: auto;
         margin: 0 auto;
 
@@ -862,7 +862,7 @@ footer > ul > li > a > img
         border-bottom: 1pt solid #D11216;
         display: block;
         margin: 10px 0 10px 0;
-        padding: 10px 10px 10px 10px;
+        padding: 10px 0 10px 0;
         color: #D11216;
         position: relative;
         text-align: center;
@@ -943,6 +943,56 @@ footer > ul > li > a > img
         margin: 10px 10px 10px 10px;
         padding: 10px 10px 10px 10px;
         width: 60% ;
+    }
+    #container-ContactUs
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    #container-ContactUs > #contact-us
+    {
+        width: 100%;
+        height: auto;
+        margin: 0;
+
+
+    }
+    #container-ContactUs > #contact-us > form
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #container-ContactUs > #contact-us > form > fieldset
+    {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        height: 430px;
+        margin: 50px 0 50px 0;
+        line-height: 30pt;
+
+        justify-content: flex-start;
+        text-align: left;
+    }
+    #container-ContactUs > #contact-us > form > fieldset > input
+    {
+        padding: 8px;
+    }
+    #container-ContactUs > #contact-us > form > fieldset > label {
+        margin: 0;
+    }
+    #container-ContactUs > #kontaktUppgifter
+    {
+        margin-top: 42px;
+        padding: 0;
     }
 
 
