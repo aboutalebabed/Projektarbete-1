@@ -584,6 +584,70 @@ input[type="submit"]
 input:last-of-type:hover {
     background: #77a198;
 }
+/* Checkout page */
+
+main > .container > .nestledContainer > img
+{
+    width: auto;
+    height: 4cm;
+}
+
+.nestledContainer
+{
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #444;
+    padding: 10px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.container > h1
+{
+    justify-content: flex-start;
+    color: #62a395;
+    font-size: 26pt;
+}
+
+.nestledContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.nestledContainer, p, img, form
+{
+    justify-content: space-between;
+}
+.container > .nestledContainer > p
+{
+    font-weight: bold;
+}
+
+.container > .nestledContainer > form > p
+{
+    font-weight: bold;
+}
+
+.totalPay
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.totalPay, p
+{
+    justify-content: space-between;
+}
+
+.totalPay p:first-child
+{
+    font-weight: bold;
+}
 
 /* Checkout page style delivery form*/
 main > section:last-child > form
@@ -630,6 +694,7 @@ main > section:last-child > form > .fraktInfo > fieldset > fieldset > img
 {
     padding: 0 5px 0 10px;
 }
+
 /* Footer section här */
 
 footer
