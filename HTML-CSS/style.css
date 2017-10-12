@@ -530,15 +530,17 @@ main > #topSeller > figure.firstProduct > #product6 > img
 {
     width: 500px;
     height: 500px;
+    margin-bottom: 50px;
 }
 #container-ContactUs > #contact-us > form > fieldset
 {
     display: flex;
     flex-direction: column;
     border: 0.8pt solid #62a395;
-    height: 460px;
+    height: 430px;
     margin: 50px auto 50px auto;
     line-height: 30pt;
+    padding: 20px;
 }
 #container-ContactUs > #contact-us > form > fieldset > legend
 {
@@ -548,7 +550,12 @@ main > #topSeller > figure.firstProduct > #product6 > img
 #container-ContactUs > #contact-us > form > fieldset > label
 {
     color: #62a395;
-    font-size: 14pt;
+    font-size: 12pt;
+}
+
+#container-ContactUs > #contact-us > form > fieldset > input
+{
+    padding: 4px;
 }
 #container-ContactUs > #kontaktUppgifter
 {
@@ -571,6 +578,7 @@ input[type="submit"]
     color: white;
     border: none;
     padding: 10px;
+    margin: 10px 0 10px 0;
 }
 
 input:last-of-type:hover {
