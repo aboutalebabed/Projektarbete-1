@@ -585,6 +585,11 @@ input:last-of-type:hover {
     background: #77a198;
 }
 /* Checkout page */
+.fraktType > img
+{
+    width: 45px;
+    height: 40px;
+}
 
 main > .container > .nestledContainer > img
 {
@@ -872,152 +877,6 @@ footer > ul > li > a > img
 
 
 
-/* kolla denna*//*******************************
-@media screen and (max-width: 40.5em)  {
-
-    #topHeader > h1
-    {
-        width: 30%;
-        float: left;
-    }
-
-    #option1
-    {
-        width: 30%;
-        float: left;
-    }
-
-    #option2
-    {
-        width: 30%;
-        float: left;
-    }
-
-    .searchBox
-    {
-        width: 30%;
-        float: left;
-    }
-
-    .nav
-    {
-
-    }
-
-    #topHeader
-    {
-        display:none;
-    }
-
-    main > section > figure > img
-    {
-        width: 30%;
-        float: left;
-        height: 30%;
-    }
-
-    main > #offer > header > figure > img
-    {
-        width: 30%;
-        float: left;
-    }
-
-    main > #offer > header > figure > ol > li
-    {
-        width: 30%;
-        float: left;
-    }
-
-    main > #topSeller > header > h2
-    {
-        width: 30%;
-        float: left;
-    }
-
-    main > #topSeller > figure.firstProduct > #product1 > img
-    {
-        width: 20%;
-        height: 20%;
-        float: left;
-    }
-
-    main > #topSeller > figure.firstProduct > #product2 > img
-    {
-        width: 20%;
-        height: 20%;
-        float: left;
-    }
-
-    main > #topSeller > figure.firstProduct > #product3 > img
-    {
-        width: 20%;
-        height: 20%;
-        float: left;
-    }
-
-    footer > div.footerNav > li > a > img
-    {
-        width: 40px;
-        float: left;
-    }
-}
-
-***************************/
-/* Checkout page */
-
-main > .container > .nestledContainer > img
-{
-    width: auto;
-    height: 4cm;
-}
-
-.nestledContainer
-{
-    border-top: solid;
-    border-bottom: solid;
-    border-color: #444;
-    padding: 10px;
-}
-
-
-
-.container
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.container > h1
-{
-    justify-content: flex-start;
-}
-
-.nestledContainer
-{
-    display: flex;
-    flex-direction: row;
-}
-
-.nestledContainer, p, img, form
-{
-    justify-content: space-between;
-}
-
-.totalPay
-{
-    display: flex;
-    flex-direction: row;
-}
-
-.totalPay, p
-{
-    justify-content: space-between;
-}
-
-.totalPay p:first-child
-{
-    font-weight: bold;
-}
 
 
 
@@ -1025,84 +884,13 @@ main > .container > .nestledContainer > img
 .searchBox
 {
 
-    padding: 0;
+    padding: 0 0 23px 0;
     margin: 0 auto 0 auto;
     background: #444;
     float: right;
-    padding-bottom: 23px;
 }
 
 .searchBox > button
 {
 
-}
-
-/*Checkout page FRAKT SÄTT */
-.fraktType > img
-{
-    width: 45px;
-    height: 40px;
-}
-/************************************************************ NAV HÄR nya */
-div.nav > ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #444;
-    text-align: center;
-}
-
-div.nav > ul > li
-{
-    display: inline-block;
-}
-
-li a, .dropbtn
-{
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-div.nav > ul > li a:hover, .dropdown:hover .dropbtn
-{
-    background-color: #005f5f;
-}
-
-li.dropdown
-{
-    display: inline-block;
-}
-
-.dropdown-content
-{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a
-{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover
-{
-    background-color: #f1f1f1
-}
-
-.dropdown:hover .dropdown-content
-{
-    display: block;
 }
