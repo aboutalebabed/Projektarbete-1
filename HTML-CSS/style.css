@@ -775,18 +775,21 @@ footer > ul > li > a > img
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        width: 100%;
+        width: 40%;
         margin: 0;
 
     }
 
-    .Categories
+    nav.Categories
      {
-         padding: 0 10px 5px 10px;
+        /* padding: 0 10px 5px 10px;*/
          margin: 0;
-        width: 100%;
-
-
+        width: 40%;
+        border-right: 0;
+        height: 300px;
+        display:block;
+        padding-left: 265px;
+        padding-bottom: 40px;
      }
     .Categories > ul
     {
@@ -794,7 +797,8 @@ footer > ul > li > a > img
         padding: 0;
         list-style-type: none;
         display: inline-block;
-        width: 100%;
+        width: 40%;
+
     }
     .Categories > ul >li
     {
@@ -811,20 +815,32 @@ footer > ul > li > a > img
         margin-left: 30px;
     }
 
-    #topSeller > header > h2
+    #topSeller > header
     {
         text-align: center;
         color: #62a395;
-        border-bottom: 0.5pt solid #62a395;
         padding: 10px 0 10px 0;
         font-weight: bold;
         width: 60%;
-    }
 
+    }
+    #topSeller figure
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
     main > #topSeller > figure.firstProduct
     {
         margin: 10px 10px 10px 10px;
         padding: 10px 10px 10px 10px;
+    }
+    main > #topSeller > figure.firstProduct
+    {
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        width: 60% ;
     }
 
 
