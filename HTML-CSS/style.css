@@ -577,7 +577,29 @@ input:last-of-type:hover {
     background: #77a198;
 }
 
+/* Checkout page style delivery form*/
+main > section:last-child > form
+{
+    width: 1000px;
+    margin: 0 auto;
+    height: 700px;
+}
+main > section:last-child > form > .fraktInfo > fieldset
+{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    color: #62a395;
+}
+main > section:last-child > form > .fraktInfo > fieldset
+{
+     border: 0.8pt solid #62a395;
+}
 
+main > section:last-child > form > .fraktInfo > fieldset > fieldset
+{
+    border: 0.8pt solid #62a395;
+}
 /* Footer section här */
 
 footer
@@ -862,10 +884,7 @@ main > .container > .nestledContainer > img
     padding: 10px;
 }
 
-#mainCheckout > section > form
-{
 
-}
 
 .container
 {
